@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="548.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="createlife.FXMLDocumentController">
+    <children>
+        <Button fx:id="giveLifeButton" layoutX="417.0" layoutY="499.0" onAction="#giveLifeButtonAction" text="Give Life">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <ComboBox fx:id="chooseSeedComboBox" layoutX="22.0" layoutY="499.0" prefHeight="30.0" prefWidth="355.0" promptText="Select an initial seed from the list..." />
+      <Button fx:id="resetButton" layoutX="512.0" layoutY="499.0" onAction="#resetButtonAction" text="Reset / Clear">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <TextArea fx:id="environmentTextArea" layoutX="22.0" layoutY="45.0" prefHeight="388.0" prefWidth="593.0" text="[   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][ = ][ = ][ = ][ = ][ = ]&#10;[   ][   ][   ][ = ][ = ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ]&#10;[   ][   ][   ][   ][ = ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ]&#10;[   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][ = ][   ][ = ][   ][   ]&#10;[   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][ = ][   ][   ][   ][ = ]&#10;[   ][   ][   ][ = ][ = ][   ][   ][   ][   ][   ][   ][ = ][   ][   ][   ]&#10;[   ][   ][ = ][ = ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ]&#10;[   ][   ][   ][   ][   ][ = ][   ][   ][   ][   ][ = ][   ][ = ][ = ][   ]&#10;[   ][   ][   ][   ][ = ][   ][   ][   ][   ][   ][   ][   ][ = ][   ][   ]&#10;[   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][   ][ = ]" />
+      <Label fx:id="titleLabel" layoutX="22.0" layoutY="5.0" text="Game of Life" underline="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="instructionsTextArea" layoutX="22.0" layoutY="436.0" prefHeight="59.0" prefWidth="593.0" text="Select an initial seed from the drop-down list and then click &quot;Give Life&quot; to start the process. Keep clicking &quot;Give Life&quot; to progress through each iteration. Use &quot;Reset / Clear&quot; to wipe the Environment and start again with another seed." wrapText="true" />
+    </children>
+</AnchorPane>

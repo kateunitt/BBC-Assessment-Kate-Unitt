@@ -1,0 +1,7 @@
+I have submitted this as this was my intentional submission.
+
+The plan was to expand upon what is now the final submission but to set the text of the TextArea in the window to display the console results.
+
+I also worked on a visual version which was an extension of a Tic Tac Toe game I looked at but was unable to work out how/where to apply the logic to the GridLayout in time. (It does make for an interesting if not rather large version of Tic Tac Toe however.)
+
+I have only been learning programming in an academic capacity from this, my second Semester, which began in February. I am learning more skills each day, attending sessions based in Java and C++, and further application of Java through Android Studio.

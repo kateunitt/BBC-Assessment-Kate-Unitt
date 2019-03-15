@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GOL_browser.jnlp">
+  <information>
+    <title>GOL</title>
+    <vendor>Kate Unitt</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GOL.jar" size="23531" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="GameOfLife.GameOfLife"  name="GOL" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
